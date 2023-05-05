@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div>
-      <div>About Us</div>
+      <div className="text-center">About Us</div>
       <div>
         <div>
           Welcome to Voyage Vistas! As a premier travel agency founded by two

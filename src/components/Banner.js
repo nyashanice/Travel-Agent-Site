@@ -59,12 +59,7 @@ export default function Banner() {
             <span className="period d-inline-block">.</span>
           </h1>
         </div>
-      </div>
-      <div>
-        {/* <div className="text-center p-5">
-          Unleash Your Wanderlust, We'll Handle the Rest.
-        </div> */}
-        <div className="text-center">
+        <div className="card-img-overlay d-flex align-items-end justify-content-center">
           <Button variant="secondary" size="lg">
             See What We Offer
           </Button>
