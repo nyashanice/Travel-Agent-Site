@@ -1,13 +1,16 @@
 import React from "react";
+import "../styles/Offerings.css";
 
 export default function Offerings() {
   return (
-    <div>
-      <div>
-        <div>
-          <div>Flight + Hotel Bundle</div>
-          <div>
-            <div>
+    <div className="container">
+      <div className="row mb-5">
+        <div className="col border border-dark border-2 rounded">
+          <div className="text-center p-2 text-style">
+            Flight + Hotel Bundle
+          </div>
+          <div className="body-text">
+            <div className="p-2">
               Introducing our unbeatable Hotel and Flight Bundle Package! At
               Voyage Vistas, we understand that convenience, affordability, and
               a seamless travel experience are of utmost importance to our
@@ -16,7 +19,7 @@ export default function Offerings() {
               convenient flights to ensure you have a stress-free and
               unforgettable journey.
             </div>
-            <div>
+            <div className="p-2">
               When you book our Hotel and Flight Bundle Package, you can rest
               assured that every detail has been meticulously arranged to
               provide you with the best value and a truly memorable stay. Our
@@ -27,7 +30,7 @@ export default function Offerings() {
               tropical escape, we have the perfect accommodation to suit your
               preferences.
             </div>
-            <div>
+            <div className="p-2">
               With regards to flights, we have partnered with leading airlines
               to offer you a wide range of options and flexible itineraries. Our
               flight arrangements prioritize convenience and efficiency,
@@ -35,7 +38,7 @@ export default function Offerings() {
               goodbye to the hassle of searching for separate hotel and flight
               deals – our bundled package saves you time, effort, and money.
             </div>
-            <div>
+            <div className="p-2">
               By combining your hotel and flight bookings with us, you'll also
               benefit from our exclusive discounts and special offers. We have
               established strong relationships with our partners in the travel
@@ -43,14 +46,14 @@ export default function Offerings() {
               can enjoy the peace of mind knowing that you're getting the best
               value for your money without compromising on quality.
             </div>
-            <div>
+            <div className="p-2">
               Whether you're planning a romantic getaway, a family vacation, or
               a solo adventure, our Hotel and Flight Bundle Package is the
               perfect solution. Take advantage of our expertise, attention to
               detail, and personalized service to create a tailored travel
               experience that exceeds your expectations.
             </div>
-            <div>
+            <div className="p-2">
               Leave the logistics to us as you embark on a seamless journey
               filled with relaxation, exploration, and cherished memories. Book
               our Hotel and Flight Bundle Package today and let us handle all
@@ -58,18 +61,20 @@ export default function Offerings() {
               moments. Your dream vacation awaits!
             </div>
           </div>
-          <div></div>
+          <div className="text-center p-3">
+            <button className="btn btn-dark">I'm interested!</button>
+          </div>
         </div>
-        <div>
-          <div>Cruise Planning</div>
-          <div>
-            <div>
+        <div className="col border border-dark border-2 rounded">
+          <div className="text-center p-2 text-style">Cruise Planning</div>
+          <div className="body-text">
+            <div className="p-2">
               Embark on a journey of a lifetime as we guide you through the
               world of magnificent oceanic adventures. At Voyage Vistas, we
               specialize in curating unforgettable cruise experiences tailored
               to your unique preferences and desires.
             </div>
-            <div>
+            <div className="p-2">
               With our expertise and extensive knowledge of the cruise industry,
               we take pride in offering you a seamless and hassle-free planning
               process. Whether you dream of exploring exotic destinations,
@@ -77,14 +82,14 @@ export default function Offerings() {
               luxurious relaxation, we have the perfect cruise itinerary for
               you.
             </div>
-            <div>
+            <div className="p-2">
               Our dedicated team of cruise specialists works closely with
               renowned cruise lines to bring you a curated selection of
               captivating voyages. From intimate river cruises to grand ocean
               liners, we ensure you have access to a wide range of options and
               itineraries that cater to your specific interests.
             </div>
-            <div>
+            <div className="p-2">
               Leave the details to us as we handle all aspects of your cruise
               planning. From selecting the ideal stateroom with breathtaking
               views to arranging exciting shore excursions that immerse you in
@@ -92,14 +97,14 @@ export default function Offerings() {
               expectations. We take care of the logistics, allowing you to focus
               on embracing the beauty and serenity of the open sea.
             </div>
-            <div>
+            <div className="p-2">
               At Voyage Vistas, we understand that each traveler is unique, and
               we strive to provide personalized service that caters to your
               individual preferences. Our cruise specialists are passionate
               about creating memorable experiences and will go above and beyond
               to ensure your journey is flawless.
             </div>
-            <div>
+            <div className="p-2">
               Book your next cruise adventure with Voyage Vistas and embark on a
               voyage of discovery, relaxation, and unparalleled beauty. Let us
               be your compass as you navigate the world's oceans, immersing
@@ -108,21 +113,23 @@ export default function Offerings() {
               lifetime.
             </div>
           </div>
-          <div></div>
+          <div className="text-center p-3">
+            <button className="btn btn-dark">I'm interested!</button>
+          </div>
         </div>
       </div>
-      <div>
-        <div>
-          <div>Destination Wedding</div>
-          <div>
-            <div>
+      <div className="row mb-5">
+        <div className="col border border-dark border-2 rounded">
+          <div className="text-center p-2 text-style">Destination Wedding</div>
+          <div className="body-text">
+            <div className="p-2">
               We understand that your wedding day is a cherished moment, and
               what better way to celebrate than by saying "I do" amidst a
               breathtaking backdrop? At Voyage Vistas, we specialize in helping
               couples create unforgettable destination weddings by taking care
               of all their travel needs.
             </div>
-            <div>
+            <div className="p-2">
               With our expertise in destination weddings and our extensive
               network of trusted partners, we ensure that your journey to the
               perfect wedding location is seamless and stress-free. While we
@@ -130,14 +137,14 @@ export default function Offerings() {
               what we do best: organizing the travel logistics for you and your
               guests.
             </div>
-            <div>
+            <div className="p-2">
               Imagine exchanging vows on a pristine beach, overlooking a
               majestic mountaintop, or in a charming European villa. We work
               closely with renowned resorts, hotels, and travel suppliers to
               bring you exclusive wedding packages tailored to your dreams and
               desires.
             </div>
-            <div>
+            <div className="p-2">
               Our dedicated team of wedding travel specialists will guide you
               through the process, helping you choose the ideal destination,
               securing group accommodations, and arranging convenient travel
@@ -146,13 +153,13 @@ export default function Offerings() {
               every detail, ensuring that you can fully immerse yourself in the
               joy of your special day.
             </div>
-            <div>
+            <div className="p-2">
               With Voyage Vistas, you can relax knowing that all the travel
               aspects of your destination wedding are in expert hands. Our
               personalized service and attention to detail ensure that your
               wedding journey is as magical as your big day itself.
             </div>
-            <div>
+            <div className="p-2">
               Book your destination wedding travel with Voyage Vistas and let us
               take care of the logistics while you focus on creating lifelong
               memories. Your dream wedding destination awaits, and we're here to
@@ -160,19 +167,21 @@ export default function Offerings() {
               Voyage Vistas.
             </div>
           </div>
-          <div></div>
+          <div className="text-center p-3">
+            <button className="btn btn-dark">I'm interested!</button>
+          </div>
         </div>
-        <div>
-          <div>Itinerary Creation</div>
-          <div>
-            <div>
+        <div className="col border border-dark border-2 rounded">
+          <div className="text-center p-2 text-style">Itinerary Creation</div>
+          <div className="body-text">
+            <div className="p-2">
               At Voyage Vistas, we understand that every traveler is unique, and
               we believe that your journey should be tailored to your personal
               interests, preferences, and dreams. That's why we offer a
               specialized itinerary creation service to curate extraordinary
               travel experiences just for you
             </div>
-            <div>
+            <div className="p-2">
               Our experienced team of travel experts is passionate about
               crafting bespoke itineraries that encompass the best destinations,
               activities, and experiences the world has to offer. Whether you're
@@ -180,7 +189,7 @@ export default function Offerings() {
               romantic getaway, or a relaxing retreat, we have the expertise to
               design an itinerary that fulfills your travel aspirations.
             </div>
-            <div>
+            <div className="p-2">
               When you choose our itinerary creation service, we take the time
               to understand your travel desires, budget, and time frame. We
               collaborate closely with you to design a customized itinerary that
@@ -189,7 +198,7 @@ export default function Offerings() {
               thoughtfully planned to ensure a seamless and unforgettable
               experience.
             </div>
-            <div>
+            <div className="p-2">
               Our extensive network of trusted partners worldwide allows us to
               offer you exclusive access to hidden gems, insider experiences,
               and luxury accommodations. We take pride in handpicking the best
@@ -197,14 +206,14 @@ export default function Offerings() {
               interests, ensuring that each moment of your journey is filled
               with wonder and discovery.
             </div>
-            <div>
+            <div className="p-2">
               With Voyage Vistas, you can be confident that your itinerary is
               expertly crafted to optimize your time, provide authentic
               experiences, and create lifelong memories. Our attention to
               detail, insider knowledge, and dedication to personalized service
               set us apart in the world of itinerary planning.
             </div>
-            <div>
+            <div className="p-2">
               Let us be your travel companions as we unlock the world's
               treasures together. Discover the joy of a meticulously designed
               itinerary that exceeds your expectations and brings your travel
@@ -213,7 +222,9 @@ export default function Offerings() {
               memories to cherish forever.
             </div>
           </div>
-          <div></div>
+          <div className="text-center p-3">
+            <button className="btn btn-dark">I'm interested!</button>
+          </div>
         </div>
       </div>
     </div>

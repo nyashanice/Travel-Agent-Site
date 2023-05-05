@@ -2,3 +2,13 @@
     font-family: 'CoffeCake';
         src: local('CoffeCake'), url(./fonts/CoffeCake.otf) format('opentype');
 }
+
+@font-face {
+    font-family: 'Open';
+        src: local('OpenSerif'), url(./fonts/OpenSerif-Book.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Modern';
+        src: local('Modern-Sans-Serif'), url(./fonts/modern_sans_serif_7.ttf) format('truetype');
+}

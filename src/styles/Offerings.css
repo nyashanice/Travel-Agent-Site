@@ -1,0 +1,13 @@
+.text-style {
+    font-family: 'Modern';
+    font-size: 30px;
+}
+
+.body-text {
+    font-family: "Open";
+    font-size: 17px;
+}
+
+.col {
+    background-color: #93C4FF;
+}
