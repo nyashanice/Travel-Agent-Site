@@ -16,16 +16,16 @@ export default function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features" className="link-txt">
+              <Nav.Link href="#about" className="link-txt">
                 About
               </Nav.Link>
-              <Nav.Link href="#pricing" className="link-txt">
+              <Nav.Link href="#services" className="link-txt">
                 Services
               </Nav.Link>
-              <Nav.Link href="#pricing" className="link-txt">
+              <Nav.Link href="#testimonials" className="link-txt">
                 Testimonials
               </Nav.Link>
-              <Nav.Link href="#pricing" className="link-txt">
+              <Nav.Link href="#inquiry-form" className="link-txt">
                 Inquiry Form
               </Nav.Link>
             </Nav>

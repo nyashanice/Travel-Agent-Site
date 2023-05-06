@@ -20,7 +20,7 @@ export default function Buffer() {
           planning is seamless.
         </h4>
         <div className="ml-0 mt-5">
-          <Button variant="secondary" size="lg" className="cta-btn">
+          <Button variant="secondary" size="lg" className="cta-btn" href="#services">
             See What We Offer
           </Button>
         </div>

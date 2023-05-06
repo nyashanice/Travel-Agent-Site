@@ -4,11 +4,11 @@ import Accordion from "react-bootstrap/Accordion";
 
 export default function Offerings() {
   return (
-    <div className="p-5">
+    <div className="p-5" id="services">
       <h1 className="text-center p-2 header-txt">Services</h1>
       <Accordion>
         <Accordion.Item eventKey="0" className="container-bg">
-          <Accordion.Header className="text-style">
+          <Accordion.Header className="text-style" id="flight-hotel-bundle">
             Flight + Hotel Bundle
           </Accordion.Header>
           <Accordion.Body>
@@ -70,7 +70,7 @@ export default function Offerings() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1" className="container-bg">
-          <Accordion.Header className="text-style">
+          <Accordion.Header className="text-style" id="cruise-planning">
             Cruise Planning
           </Accordion.Header>
           <Accordion.Body>
@@ -126,7 +126,7 @@ export default function Offerings() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1" className="container-bg">
-          <Accordion.Header className="text-style">
+          <Accordion.Header className="text-style" id="destination-wedding">
             Destination Wedding
           </Accordion.Header>
           <Accordion.Body>
@@ -182,7 +182,7 @@ export default function Offerings() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1" className="container-bg">
-          <Accordion.Header className="text-style">
+          <Accordion.Header className="text-style" id="itinerary-creation">
             Itinerary Creation
           </Accordion.Header>
           <Accordion.Body>

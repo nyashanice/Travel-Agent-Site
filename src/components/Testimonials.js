@@ -5,7 +5,7 @@ import "../styles/Testimonials.css";
 
 export default function Testimonials() {
   return (
-    <div className="m-5">
+    <div className="m-5" id="testimonials">
       <h1 className="testimonials-header text-center p-2">Testimonials</h1>
       <CardGroup>
         <Card className="border-0">

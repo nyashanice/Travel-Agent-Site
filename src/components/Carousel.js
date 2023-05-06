@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import '../styles/Carousel.css';
+import Button from "react-bootstrap/Button";
+import "../styles/Carousel.css";
 
 export default function Offerings() {
   return (
@@ -14,7 +15,9 @@ export default function Offerings() {
           />
           <Carousel.Caption>
             <h3 className="img-title">Flight + Hotel Bundle</h3>
-            <button className="btn btn-dark btn-lg">Learn more</button>
+            <Button variant="dark" size="lg" href="#flight-hotel-bundle">
+              Learn more
+            </Button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -26,7 +29,9 @@ export default function Offerings() {
 
           <Carousel.Caption>
             <h3 className="img-title">Cruise Planning</h3>
-            <button className="btn btn-dark btn-lg">Learn more</button>
+            <Button variant="dark" size="lg" href="#cruise-planning">
+              Learn more
+            </Button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -38,7 +43,9 @@ export default function Offerings() {
 
           <Carousel.Caption>
             <h3 className="img-title">Destination Wedding Travel</h3>
-            <button className="btn btn-dark btn-lg">Learn more</button>
+            <Button variant="dark" size="lg" href="#destination-wedding">
+              Learn more
+            </Button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -50,7 +57,9 @@ export default function Offerings() {
 
           <Carousel.Caption>
             <h3 className="img-title">Itinerary Creation</h3>
-            <button className="btn btn-dark btn-lg">Learn more</button>
+            <Button variant="dark" size="lg" href="#itinerary-creation">
+              Learn more
+            </Button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
