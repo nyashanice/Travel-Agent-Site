@@ -3,37 +3,30 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import "../styles/Header.css";
 
 export default function Header() {
   return (
-    <header className="page-header purple lighten-3">
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <header className="page-header header-bg">
+      <Navbar collapseOnSelect expand="lg">
+        <Container className="m-0 p-0">
+          <Navbar.Brand href="#home">
+            <img src="../images/vv_logo.png" alt="" className="logo" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-            <Nav>
-              <Nav.Link href="#deets">More deets</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                Dank memes
+              <Nav.Link href="#features" className="link-txt">
+                About
+              </Nav.Link>
+              <Nav.Link href="#pricing" className="link-txt">
+                Services
+              </Nav.Link>
+              <Nav.Link href="#pricing" className="link-txt">
+                Testimonials
+              </Nav.Link>
+              <Nav.Link href="#pricing" className="link-txt">
+                Inquiry Form
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

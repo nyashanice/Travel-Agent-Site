@@ -1,3 +1,11 @@
 .carousel-img {
     height: 600px;
 }
+
+.img-title {
+    font-family: "Open";
+    color: black;
+    text-shadow: 2px 2px #BA50C4;
+    font-size: 50px;
+}
+

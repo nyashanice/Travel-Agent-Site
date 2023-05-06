@@ -1,0 +1,17 @@
+.header-bg {
+    background-color: white !important;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.link-txt {
+    font-family: "Open";
+    font-size: 20px;
+}
+
+.link-txt:hover {
+    font-style: italic;
+}

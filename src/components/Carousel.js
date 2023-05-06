@@ -13,7 +13,7 @@ export default function Offerings() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Flight + Hotel Bundle</h3>
+            <h3 className="img-title">Flight + Hotel Bundle</h3>
             <button className="btn btn-dark btn-lg">Learn more</button>
           </Carousel.Caption>
         </Carousel.Item>
@@ -25,7 +25,7 @@ export default function Offerings() {
           />
 
           <Carousel.Caption>
-            <h3>Cruise Planning</h3>
+            <h3 className="img-title">Cruise Planning</h3>
             <button className="btn btn-dark btn-lg">Learn more</button>
           </Carousel.Caption>
         </Carousel.Item>
@@ -37,7 +37,7 @@ export default function Offerings() {
           />
 
           <Carousel.Caption>
-            <h3>Destination Wedding Travel</h3>
+            <h3 className="img-title">Destination Wedding Travel</h3>
             <button className="btn btn-dark btn-lg">Learn more</button>
           </Carousel.Caption>
         </Carousel.Item>
@@ -49,7 +49,7 @@ export default function Offerings() {
           />
 
           <Carousel.Caption>
-            <h3>Itinerary Creation</h3>
+            <h3 className="img-title">Itinerary Creation</h3>
             <button className="btn btn-dark btn-lg">Learn more</button>
           </Carousel.Caption>
         </Carousel.Item>
