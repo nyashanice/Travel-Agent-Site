@@ -1,0 +1,16 @@
+.form-header {
+    font-family: 'Modern';
+}
+
+.form-txt {
+    font-family: 'Open';
+}
+
+.btn-bg {
+    background-color: #93C4FF !important;
+    color: black !important;
+}
+
+.btn-bg:hover {
+    color: white !important;
+}

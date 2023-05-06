@@ -8,6 +8,7 @@ import Offerings from "./components/Offerings";
 import Carousel from "./components/Carousel";
 import Buffer from "./components/Buffer";
 import Testimonials from "./components/Testimonials";
+import InquiryForm from "./components/InquiryForm";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <About />
           <Offerings />
           <Testimonials />
+          <InquiryForm />
         </div>
         <Footer />
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Offerings.css";
 import Accordion from "react-bootstrap/Accordion";
+import Button from "react-bootstrap/Button";
 
 export default function Offerings() {
   return (
@@ -65,7 +66,9 @@ export default function Offerings() {
               </div>
             </div>
             <div className="text-center p-3">
-              <button className="btn btn-dark">I'm interested!</button>
+              <Button variant="dark" size="lg" href="#inquiry-form">
+                I'm interested!
+              </Button>
             </div>
           </Accordion.Body>
         </Accordion.Item>
@@ -121,7 +124,9 @@ export default function Offerings() {
               </div>
             </div>
             <div className="text-center p-3">
-              <button className="btn btn-dark">I'm interested!</button>
+              <Button variant="dark" size="lg" href="#inquiry-form">
+                I'm interested!
+              </Button>
             </div>
           </Accordion.Body>
         </Accordion.Item>
@@ -177,7 +182,9 @@ export default function Offerings() {
               </div>
             </div>
             <div className="text-center p-3">
-              <button className="btn btn-dark">I'm interested!</button>
+              <Button variant="dark" size="lg" href="#inquiry-form">
+                I'm interested!
+              </Button>
             </div>
           </Accordion.Body>
         </Accordion.Item>
@@ -237,7 +244,9 @@ export default function Offerings() {
               </div>
             </div>
             <div className="text-center p-3">
-              <button className="btn btn-dark">I'm interested!</button>
+              <Button variant="dark" size="lg" href="#inquiry-form">
+                I'm interested!
+              </Button>
             </div>
           </Accordion.Body>
         </Accordion.Item>
