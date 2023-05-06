@@ -5,7 +5,8 @@ import "../styles/Testimonials.css";
 
 export default function Testimonials() {
   return (
-    <div>
+    <div className="m-5">
+      <h1 className="testimonials-header text-center p-2">Testimonials</h1>
       <CardGroup>
         <Card className="border-0">
           <Card.Img

@@ -3,11 +3,16 @@
     font-size: 30px;
 }
 
+.header-txt {
+    font-family: 'Modern';
+}
+
 .body-text {
     font-family: "Open";
     font-size: 17px;
 }
 
-.col {
-    background-color: #93C4FF;
+.container-bg {
+    background-color: #93C4FF !important;
 }
+

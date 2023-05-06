@@ -2,3 +2,20 @@
     width: 450px;
     height: 450px;
 }
+
+.cta-btn {
+    background-color: #93C4FF !important;
+    color: black !important;
+}
+
+.cta-btn:hover {
+    color: white !important;
+}
+
+.buffer-list {
+    font-family: 'Modern';
+}
+
+.buffer-txt {
+    font-family: "Open";
+}

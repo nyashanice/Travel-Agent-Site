@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import '../styles/Carousel.css';
 
 export default function Offerings() {
   return (
@@ -7,7 +8,7 @@ export default function Offerings() {
       <Carousel fade>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src="../images/airplane.jpg"
             alt="First slide"
           />
@@ -18,7 +19,7 @@ export default function Offerings() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src="../images/cruise.jpg"
             alt="Second slide"
           />
@@ -30,7 +31,7 @@ export default function Offerings() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src="../images/wedding.jpg"
             alt="Third slide"
           />
@@ -42,7 +43,7 @@ export default function Offerings() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src="../images/jet-ski.jpg"
             alt="Third slide"
           />

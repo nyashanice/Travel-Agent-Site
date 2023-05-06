@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import "../styles/Banner.css";
 // import Alert from "./Alert.js";
 
@@ -7,7 +6,12 @@ export default function Banner() {
   return (
     <div>
       <div className="card m-0 p-0">
-        <img src="../images/globe.jpg" alt="" className="card-img-top" />
+        <img
+          src="../images/beach.jpg"
+          alt=""
+          className="card-img-top"
+          style={{ height: "500px", opacity: "0.3" }}
+        />
         <div className="text-center card-img-overlay">
           <h1 className="tagline">
             <span className="unleash1 d-inline-block">U</span>
@@ -58,11 +62,6 @@ export default function Banner() {
             <span className="rest4 d-inline-block">t</span>
             <span className="period d-inline-block">.</span>
           </h1>
-        </div>
-        <div className="card-img-overlay d-flex align-items-end justify-content-center">
-          <Button variant="secondary" size="lg">
-            See What We Offer
-          </Button>
         </div>
       </div>
     </div>
