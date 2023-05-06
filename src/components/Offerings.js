@@ -130,7 +130,7 @@ export default function Offerings() {
             </div>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="1" className="container-bg">
+        <Accordion.Item eventKey="2" className="container-bg">
           <Accordion.Header className="text-style" id="destination-wedding">
             Destination Wedding
           </Accordion.Header>
@@ -188,7 +188,7 @@ export default function Offerings() {
             </div>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="1" className="container-bg">
+        <Accordion.Item eventKey="3" className="container-bg">
           <Accordion.Header className="text-style" id="itinerary-creation">
             Itinerary Creation
           </Accordion.Header>
