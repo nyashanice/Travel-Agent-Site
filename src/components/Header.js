@@ -10,7 +10,11 @@ export default function Header() {
       <Navbar collapseOnSelect expand="lg">
         <Container className="m-0 p-0">
           <Navbar.Brand href="#home">
-            <img src="../images/vv_logo.png" alt="" className="logo" />
+            <img
+              src="../Travel-Agent-Site/images/vv_logo.png"
+              alt=""
+              className="logo"
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

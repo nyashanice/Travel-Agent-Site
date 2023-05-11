@@ -7,7 +7,7 @@ export default function Banner() {
     <div>
       <div className="card m-0 p-0">
         <img
-          src="../images/beach.jpg"
+          src="../Travel-Agent-Site/images/beach.jpg"
           alt=""
           className="card-img-top"
           style={{ height: "500px", opacity: "0.3" }}

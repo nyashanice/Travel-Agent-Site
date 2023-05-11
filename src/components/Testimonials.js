@@ -11,7 +11,7 @@ export default function Testimonials() {
         <Card className="border-0">
           <Card.Img
             variant="top"
-            src="../images/johnson-fam.png"
+            src="../Travel-Agent-Site/images/johnson-fam.png"
             className="testimonial-name mx-auto"
           />
           <Card.Body>
@@ -27,7 +27,7 @@ export default function Testimonials() {
         <Card className="border-0">
           <Card.Img
             variant="top"
-            src="../images/sarah-mark.png"
+            src="../Travel-Agent-Site/images/sarah-mark.png"
             className="testimonial-name mx-auto"
           />
           <Card.Body>
@@ -43,7 +43,7 @@ export default function Testimonials() {
         <Card className="border-0">
           <Card.Img
             variant="top"
-            src="../images/emily-david.png"
+            src="../Travel-Agent-Site/images/emily-david.png"
             className="testimonial-name mx-auto"
           />
           <Card.Body>
@@ -61,7 +61,7 @@ export default function Testimonials() {
         <Card className="border-0 ">
           <Card.Img
             variant="top"
-            src="../images/jason.png"
+            src="../Travel-Agent-Site/images/jason.png"
             className="testimonial-name mx-auto"
           />
           <Card.Body>
@@ -78,7 +78,7 @@ export default function Testimonials() {
         <Card className="border-0">
           <Card.Img
             variant="top"
-            src="../images/lisa-michael.png"
+            src="../Travel-Agent-Site/images/lisa-michael.png"
             className="testimonial-name mx-auto"
           />
           <Card.Body>
@@ -94,7 +94,7 @@ export default function Testimonials() {
         <Card className="border-0">
           <Card.Img
             variant="top"
-            src="../images/alex.png"
+            src="../Travel-Agent-Site/images/alex.png"
             className="testimonial-name mx-auto"
           />
           <Card.Body>

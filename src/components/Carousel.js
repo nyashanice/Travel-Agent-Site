@@ -10,7 +10,7 @@ export default function Offerings() {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
-            src="../images/airplane.jpg"
+            src="../Travel-Agent-Site/images/airplane.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -23,7 +23,7 @@ export default function Offerings() {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
-            src="../images/cruise.jpg"
+            src="../Travel-Agent-Site/images/cruise.jpg"
             alt="Second slide"
           />
 
@@ -37,7 +37,7 @@ export default function Offerings() {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
-            src="../images/wedding.jpg"
+            src="../Travel-Agent-Site/images/wedding.jpg"
             alt="Third slide"
           />
 
@@ -51,7 +51,7 @@ export default function Offerings() {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
-            src="../images/jet-ski.jpg"
+            src="../Travel-Agent-Site/images/jet-ski.jpg"
             alt="Third slide"
           />
 

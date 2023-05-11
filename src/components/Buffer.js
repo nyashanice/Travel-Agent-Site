@@ -6,7 +6,11 @@ export default function Buffer() {
   return (
     <div className="d-flex flex-row">
       <div>
-        <img src="../images/desk.png" alt="" className="buffer-img m-5" />
+        <img
+          src="../Travel-Agent-Site/images/desk.png"
+          alt=""
+          className="buffer-img m-5"
+        />
       </div>
       <div className="p-5">
         <ul className="buffer-txt">
@@ -20,7 +24,12 @@ export default function Buffer() {
           planning is seamless.
         </h4>
         <div className="ml-0 mt-5">
-          <Button variant="secondary" size="lg" className="cta-btn" href="#services">
+          <Button
+            variant="secondary"
+            size="lg"
+            className="cta-btn"
+            href="#services"
+          >
             See What We Offer
           </Button>
         </div>

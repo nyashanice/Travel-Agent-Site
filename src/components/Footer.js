@@ -8,7 +8,7 @@ export default function Footer() {
         <div>Business Hours: M-F 8-5 PM EST</div>
         <div>Phone: 888-888-8888 | Email: support@voyagevistas.com </div>
         <img
-          src="../images/insta.png"
+          src="../Travel-Agent-Site/images/insta.png"
           alt="Instagram logo"
           className="footer-img"
         />
