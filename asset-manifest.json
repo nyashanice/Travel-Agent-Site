@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Travel-Agent-Site/static/css/main.bd47f699.css",
-    "main.js": "/Travel-Agent-Site/static/js/main.19fca301.js",
+    "main.js": "/Travel-Agent-Site/static/js/main.4a7c2ee4.js",
     "static/js/787.8a220983.chunk.js": "/Travel-Agent-Site/static/js/787.8a220983.chunk.js",
     "static/media/OpenSerif-Book.ttf": "/Travel-Agent-Site/static/media/OpenSerif-Book.a648d3c87a3efab0f185.ttf",
     "static/media/modern_sans_serif_7.ttf": "/Travel-Agent-Site/static/media/modern_sans_serif_7.98d114e914b707815ed6.ttf",
     "static/media/CoffeCake.otf": "/Travel-Agent-Site/static/media/CoffeCake.6316b556efff15d9dcac.otf",
     "index.html": "/Travel-Agent-Site/index.html",
     "main.bd47f699.css.map": "/Travel-Agent-Site/static/css/main.bd47f699.css.map",
-    "main.19fca301.js.map": "/Travel-Agent-Site/static/js/main.19fca301.js.map",
+    "main.4a7c2ee4.js.map": "/Travel-Agent-Site/static/js/main.4a7c2ee4.js.map",
     "787.8a220983.chunk.js.map": "/Travel-Agent-Site/static/js/787.8a220983.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd47f699.css",
-    "static/js/main.19fca301.js"
+    "static/js/main.4a7c2ee4.js"
   ]
 }
