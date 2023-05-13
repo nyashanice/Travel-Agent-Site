@@ -3,166 +3,221 @@
     color: #BA50C4;
 }
 
-.unleash1{
-    transform: translate(0px, 185px) rotate(-40deg);
+.regular-tagline {
+    padding-top: 150px;
 }
 
-.unleash2 {
-    transform: translate(0px, 170px) rotate(-37deg);
+.unleash1, .unleash2, .unleash3, .unleash4, .unleash5,.unleash6,.unleash7,.your1,.your2,.your3,.your4,.wanderlust1,.wanderlust2,.wanderlust3,.wanderlust4,.wanderlust5,.wanderlust6,.wanderlust7,.wanderlust8,.wanderlust9,.wanderlust10,.comma,.well1,.well2,.well3,.well4,.handle1,.handle2,.handle3,.handle4,.handle5,.handle6,.the1,.the2,.the3,.rest1,.rest2,.rest3,.rest4,.apos,.period {
+    display: none;
 }
 
-.unleash3 {
-    transform: translate(0px, 160px) rotate(-37deg);
+@media screen and (min-width: 768px) {
+    .regular-tagline {
+        display: none;
+    }
+    .unleash1 {
+        transform: translate(0px, 185px) rotate(-40deg);
+        display: inline-block;
+    }
+
+    .unleash2 {
+        transform: translate(0px, 170px) rotate(-37deg);
+        display: inline-block;
+    }
+
+    .unleash3 {
+        transform: translate(0px, 160px) rotate(-37deg);
+        display: inline-block;
+    }
+
+    .unleash4 {
+        transform: translate(0px, 150px) rotate(-33deg);
+        display: inline-block;
+    }
+
+    .unleash5 {
+        transform: translate(1px, 140px) rotate(-22deg);
+        display: inline-block;
+    }
+
+    .unleash6 {
+        transform: translate(4px, 135px) rotate(0deg);
+        display: inline-block;
+    }
+
+    .unleash7 {
+        transform: translate(6px, 140px) rotate(20deg);
+        display: inline-block;
+    }
+
+    .your1 {
+        transform: translate(15px, 150px) rotate(25deg);
+        display: inline-block;
+    }
+
+    .your2 {
+        transform: translate(10px, 160px) rotate(25deg);
+        display: inline-block;
+    }
+
+    .your3 {
+        transform: translate(10px, 170px) rotate(28deg);
+        display: inline-block;
+    }
+
+    .your4 {
+        transform: translate(10px, 179px) rotate(25deg);
+        display: inline-block;
+    }
+
+    .wanderlust1 {
+        transform: translate(17px, 185px) rotate(5deg);
+        display: inline-block;
+    }
+
+    .wanderlust2 {
+        transform: translate(17px, 188px) rotate(-5deg);
+        display: inline-block;
+    }
+
+    .wanderlust3 {
+        transform: translate(17px, 185px) rotate(-15deg);
+        display: inline-block;
+    }
+
+    .wanderlust4 {
+        transform: translate(17px, 178px) rotate(-25deg);
+        display: inline-block;
+    }
+
+    .wanderlust5 {
+        transform: translate(15px, 168px) rotate(-37deg);
+        display: inline-block;
+    }
+
+    .wanderlust6 {
+        transform: translate(15px, 157px) rotate(-37deg);
+        display: inline-block;
+    }
+
+    .wanderlust7 {
+        transform: translate(15px, 150px) rotate(-35deg);
+        display: inline-block;
+    }
+
+    .wanderlust8 {
+        transform: translate(15px, 140px) rotate(-22deg);
+        display: inline-block;
+    }
+
+    .wanderlust9 {
+        transform: translate(20px, 135px) rotate(0deg);
+        display: inline-block;
+    }
+
+    .wanderlust10 {
+        transform: translate(22px, 140px) rotate(20deg);
+        display: inline-block;
+    }
+
+    .comma {
+        transform: translate(22px, 140px) rotate(20deg);
+        display: inline-block;
+    }
+
+    .well1 {
+        transform: translate(25px, 150px) rotate(25deg);
+        display: inline-block;
+    }
+
+    .well2 {
+        transform: translate(20px, 162px) rotate(25deg);
+        display: inline-block;
+    }
+
+    .apos {
+        transform: translate(20px, 162px) rotate(25deg);
+        display: inline-block;
+    }
+
+    .well3 {
+        transform: translate(17px, 170px) rotate(28deg);
+        display: inline-block;
+    }
+
+    .well4 {
+        transform: translate(18px, 174px) rotate(24deg);
+        display: inline-block;
+    }
+
+    .handle1 {
+        transform: translate(25px, 182px) rotate(15deg);
+        display: inline-block;
+    }
+
+    .handle2 {
+        transform: translate(25px, 187px) rotate(10deg);
+        display: inline-block;
+    }
+
+    .handle3 {
+        transform: translate(25px, 188px) rotate(-5deg);
+        display: inline-block;
+    }
+
+    .handle4 {
+        transform: translate(25px, 185px) rotate(-20deg);
+        display: inline-block;
+    }
+
+    .handle5 {
+        transform: translate(25px, 178px) rotate(-25deg);
+        display: inline-block;
+    }
+
+    .handle6 {
+        transform: translate(23px, 170px) rotate(-37deg);
+        display: inline-block;
+    }
+
+    .the1 {
+        transform: translate(30px, 160px) rotate(-37deg);
+        display: inline-block;
+    }
+
+    .the2 {
+        transform: translate(30px, 150px) rotate(-35deg);
+        display: inline-block;
+    }
+
+    .the3 {
+        transform: translate(30px, 140px) rotate(-22deg);
+        display: inline-block;
+    }
+
+    .rest1 {
+        transform: translate(37px, 135px) rotate(0deg);
+        display: inline-block;
+    }
+
+    .rest2 {
+        transform: translate(38px, 140px) rotate(20deg);
+        display: inline-block;
+    }
+
+    .rest3 {
+        transform: translate(37px, 150px) rotate(25deg);
+        display: inline-block;
+    }
+
+    .rest4 {
+        transform: translate(37px, 160px) rotate(25deg);
+        display: inline-block;
+    }
+
+    .period {
+        transform: translate(37px, 160px) rotate(25deg);
+        display: inline-block;
+    }
 }
 
-.unleash4 {
-    transform: translate(0px, 150px) rotate(-33deg);
-}
-
-.unleash5 {
-    transform: translate(1px, 140px) rotate(-22deg);
-}
-
-.unleash6 {
-    transform: translate(4px, 135px) rotate(0deg);
-}
-
-.unleash7 {
-    transform: translate(6px, 140px) rotate(20deg);
-}
-
-.your1 {
-    transform: translate(15px, 150px) rotate(25deg);
-}
-
-.your2 {
-    transform: translate(10px, 160px) rotate(25deg);
-}
-
-.your3 {
-    transform: translate(10px, 170px) rotate(28deg);
-}
-
-.your4 {
-    transform: translate(10px, 179px) rotate(25deg);
-}
-
-.wanderlust1 {
-    transform: translate(17px, 185px) rotate(5deg);
-}
-
-.wanderlust2 {
-    transform: translate(17px, 188px) rotate(-5deg);
-}
-
-.wanderlust3 {
-    transform: translate(17px, 185px) rotate(-15deg);
-}
-
-.wanderlust4 {
-    transform: translate(17px, 178px) rotate(-25deg);
-}
-
-.wanderlust5 {
-    transform: translate(15px, 168px) rotate(-37deg);
-}
-
-.wanderlust6 {
-    transform: translate(15px, 157px) rotate(-37deg);
-}
-
-.wanderlust7 {
-    transform: translate(15px, 150px) rotate(-35deg);
-}
-
-.wanderlust8 {
-    transform: translate(15px, 140px) rotate(-22deg);
-}
-
-.wanderlust9 {
-    transform: translate(20px, 135px) rotate(0deg);
-}
-
-.wanderlust10 {
-    transform: translate(22px, 140px) rotate(20deg);
-}
-
-.comma {
-    transform: translate(22px, 140px) rotate(20deg);
-}
-
-.well1 {
-    transform: translate(25px, 150px) rotate(25deg);
-}
-
-.well2 {
-    transform: translate(20px, 162px) rotate(25deg);
-}
-
-.apos {
-    transform: translate(20px, 162px) rotate(25deg);
-}
-
-.well3 {
-    transform: translate(17px, 170px) rotate(28deg);
-}
-
-.well4 {
-    transform: translate(18px, 174px) rotate(24deg);
-}
-
-.handle1{
-    transform: translate(25px, 182px) rotate(15deg);
-}
-
-.handle2 {
-    transform: translate(25px, 187px) rotate(10deg);
-}
-
-.handle3 {
-    transform: translate(25px, 188px) rotate(-5deg);
-}
-
-.handle4 {
-    transform: translate(25px, 185px) rotate(-20deg);
-}
-
-.handle5 {
-    transform: translate(25px, 178px) rotate(-25deg);
-}
-
-.handle6 {
-    transform: translate(23px, 170px) rotate(-37deg);
-}
-
-.the1 {
-    transform: translate(30px, 160px) rotate(-37deg);
-}
-
-.the2 {
-    transform: translate(30px, 150px) rotate(-35deg);
-}
-
-.the3 {
-    transform: translate(30px, 140px) rotate(-22deg);
-}
-
-.rest1 {
-    transform: translate(37px, 135px) rotate(0deg);
-}
-
-.rest2 {
-    transform: translate(38px, 140px) rotate(20deg);
-}
-
-.rest3 {
-    transform: translate(37px, 150px) rotate(25deg);
-}
-
-.rest4 {
-    transform: translate(37px, 160px) rotate(25deg);
-}
-
-.period {
-    transform: translate(37px, 160px) rotate(25deg);
-}
